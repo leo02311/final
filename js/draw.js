@@ -95,9 +95,6 @@ var gamePlay = setInterval(function() {
 }, 1);
 
 
-t = [3]
-line = [0]
-
 $('#go').on('click', () => {
     if (play == true) {
         gl = [];
