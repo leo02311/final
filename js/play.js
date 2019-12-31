@@ -1,5 +1,6 @@
 var audioElement = document.createElement('audio');
 $(document).ready(function() {
+    audioElement.setAttribute('src', './music/everlastingsnow.mp3');
     /*audioElement.addEventListener('ended', function() {
         audioElement.paused();
         audioElement.currentTime = 0;
